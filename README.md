@@ -19,6 +19,8 @@ cd evalHelperBSQ
 ```
 이후 `autotest.sh` 파일을 이용해 `bsq.out` 파일을 검사합니다.
 
+`examplegen.sh` 파일을 이용해 `.map` 파일과 `.ans` 파일을 자동 생성할 수 있습니다.
+
 ## TODO
 
 customtest.sh 개발
