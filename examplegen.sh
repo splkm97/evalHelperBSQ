@@ -13,7 +13,7 @@ do
 			echo "=================== map  ==================="
 			echo "width: ${wid} height: ${hei} density: ${den}"
 			./maps/mapgen.pl ${wid} ${hei} ${den} . o x > "examples/ex${wid}${hei}${den}.map"
-			cat "exampless/ex${wid}${hei}${den}.map"
+			cat "examples/ex${wid}${hei}${den}.map"
 			echo "============================================"
 			echo "================== result =================="
 			echo "width: ${wid} height: ${hei} density: ${den}"
