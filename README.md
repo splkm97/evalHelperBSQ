@@ -21,6 +21,8 @@ cd evalHelperBSQ
 
 `examplegen.sh` 파일을 이용해 `.map` 파일과 `.ans` 파일을 자동 생성할 수 있습니다.
 
+이후 `difftest.sh` 파일을 이용해 `.map` 파일과 `.ans` 파일의 차이를 담은 `.diff` 파일을 자동 생성할 수 있습니다.
+
 ## TODO
 
 customtest.sh 개발
