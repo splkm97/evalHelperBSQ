@@ -2,6 +2,8 @@ den=1
 wid=10
 hei=10
 
+mkdir diffs
+
 while [ ${den} -le 3 ]
 do
 	hei=10
