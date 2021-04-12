@@ -15,7 +15,7 @@ mv <bsq.out> evalHelperBSQ/bsq.out
 cd evalHelperBSQ
 ./autotest.sh
 ```
-이후 `autotest.sh` 파일을 이용해 
+이후 `autotest.sh` 파일을 이용해 `bsq.out` 파일을 검사합니다.
 
 ## TODO
 
