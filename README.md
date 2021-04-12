@@ -8,12 +8,14 @@
 
 ## 사용 방법
 
+터미널에
 ```
 git clone https://github.com/splkm97/evalHelperBSQ
 mv <bsq.out> evalHelperBSQ/bsq.out
 cd evalHelperBSQ
 ./autotest.sh
 ```
+이후 `autotest.sh` 파일을 이용해 
 
 ## TODO
 
