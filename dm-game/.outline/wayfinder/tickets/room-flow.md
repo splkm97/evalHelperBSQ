@@ -2,7 +2,7 @@
 id: room-flow
 title: 방 생성·입장 흐름
 type: grilling
-claimed_by: null
+claimed_by: claude-session
 status: open
 ---
 
