@@ -2,7 +2,7 @@
 id: tech-stack
 title: 프론트엔드·서버 기술 스택
 type: grilling
-claimed_by: null
+claimed_by: claude-session
 status: open
 ---
 

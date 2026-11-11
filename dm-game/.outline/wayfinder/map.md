@@ -27,6 +27,7 @@
 
 - 호스팅: 개인 쿠버네티스에 Istio Gateway·VirtualService로 공개하고 수동 배포한다. → [호스팅·실시간 통신 플랫폼 선택](tickets/hosting-realtime.md)
 - 저장소·상태: 덱은 PVC 위 SQLite에, 방 상태는 메모리에만 두고 replica는 1개(Recreate)로 고정한다. → [서버 상태·덱 저장소 구성](tickets/server-state-storage.md)
+- 관리자: 공유 비밀번호 1개(Secret 주입, 세션 쿠키)로 보호한다. 카드는 한 장씩 입력, 여러 줄 붙여넣기, JSON/CSV 가져오기·내보내기로 관리한다. → [관리자 편집 화면 접근 보호](tickets/admin-access.md)
 
 ## Not yet specified
 
