@@ -2,7 +2,7 @@
 id: dm-ui
 title: DM 대화 화면 UI 목업
 type: prototype
-claimed_by: null
+claimed_by: claude-session
 status: open
 ---
 
