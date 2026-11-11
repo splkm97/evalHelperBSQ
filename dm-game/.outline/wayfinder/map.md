@@ -26,6 +26,7 @@
 ## Decisions so far
 
 - 호스팅: 개인 쿠버네티스에 Istio Gateway·VirtualService로 공개하고 수동 배포한다. → [호스팅·실시간 통신 플랫폼 선택](tickets/hosting-realtime.md)
+- 저장소·상태: 덱은 PVC 위 SQLite에, 방 상태는 메모리에만 두고 replica는 1개(Recreate)로 고정한다. → [서버 상태·덱 저장소 구성](tickets/server-state-storage.md)
 
 ## Not yet specified
 

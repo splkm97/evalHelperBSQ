@@ -2,7 +2,7 @@
 id: admin-access
 title: 관리자 편집 화면 접근 보호
 type: grilling
-claimed_by: null
+claimed_by: claude-session
 status: open
 ---
 
