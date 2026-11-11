@@ -14,4 +14,4 @@ status: open
 
 ## Blocked by
 
-- card-model
+(없음)

@@ -2,7 +2,7 @@
 id: round-rules
 title: 라운드 세부 규칙
 type: grilling
-claimed_by: null
+claimed_by: claude-session
 status: open
 ---
 
@@ -14,5 +14,4 @@ status: open
 
 ## Blocked by
 
-- reference-video
-- card-model
+(없음)
