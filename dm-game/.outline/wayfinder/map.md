@@ -29,6 +29,7 @@
 - 저장소·상태: 덱은 PVC 위 SQLite에, 방 상태는 메모리에만 두고 replica는 1개(Recreate)로 고정한다. → [서버 상태·덱 저장소 구성](tickets/server-state-storage.md)
 - 관리자: 공유 비밀번호 1개(Secret 주입, 세션 쿠키)로 보호한다. 카드는 한 장씩 입력, 여러 줄 붙여넣기, JSON/CSV 가져오기·내보내기로 관리한다. → [관리자 편집 화면 접근 보호](tickets/admin-access.md)
 - 스택: Go 서버와 React + Vite + TS 프론트엔드. 프론트엔드는 Go embed로 넣어 컨테이너 하나로 서빙한다. → [프론트엔드·서버 기술 스택](tickets/tech-stack.md)
+- 방: 방 코드와 초대 링크로 입장한다. 닉네임을 입력하고 방장이 선공한다. 연결이 끊기면 토큰으로 5분 안에 재접속할 수 있다. → [방 생성·입장 흐름](tickets/room-flow.md)
 
 ## Not yet specified
 
