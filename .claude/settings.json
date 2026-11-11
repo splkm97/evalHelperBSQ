@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "dstack": {
+      "source": {
+        "source": "github",
+        "repo": "gosuda/dalcom-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "dstack-core@dstack": true,
+    "dstack-code@dstack": true
+  }
+}
