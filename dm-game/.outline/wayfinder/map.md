@@ -25,7 +25,7 @@
 
 ## Decisions so far
 
-(없음)
+- 호스팅: 개인 쿠버네티스에 Istio Gateway·VirtualService로 공개하고 수동 배포한다. → [호스팅·실시간 통신 플랫폼 선택](tickets/hosting-realtime.md)
 
 ## Not yet specified
 
@@ -34,6 +34,7 @@
 - 부적절한 콘텐츠: 공개 URL에서 생길 수 있는 남용을 어떻게 다루는가.
 - 관전자나 화면 공유 모드가 필요한가.
 - 다국어 지원.
+- 배포 산출물: 컨테이너 이미지 레지스트리, 매니페스트 형태(raw YAML, Helm, Kustomize), 도메인과 TLS 인증서 처리.
 
 ## Out of scope
 
